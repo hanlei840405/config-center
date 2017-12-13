@@ -1,6 +1,6 @@
 spring:
   application:
-    name: tenant
+    name: tenant-a
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
