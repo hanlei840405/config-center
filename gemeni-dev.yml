@@ -15,5 +15,5 @@ eureka:
     service-url:
       defaultZone: http://eureka-zuul:8101/eureka/
 mybatis:
-  type-aliases-package: com.galaxy.framework.gemini.entity
+  type-aliases-package: com.galaxy.framework.entity
   mapper-locations: classpath:mappers/*.xml
