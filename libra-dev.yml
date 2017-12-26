@@ -8,6 +8,10 @@ spring:
     url: jdbc:mysql://eureka-zuul:3306/activiti?characterEncoding=UTF-8
   redis:
     host: eureka-zuul
+  rabbitmq:
+    host: eureka-zuul
+    username: root
+    password: root
   activiti:
     check-process-definitions: false
 server:
