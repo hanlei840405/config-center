@@ -8,6 +8,8 @@ spring:
     url: jdbc:mysql://eureka-zuul:3306/activiti?characterEncoding=UTF-8
   redis:
     host: eureka-zuul
+  activiti:
+    check-process-definitions: false
 server:
   port: 8501
 eureka:
