@@ -8,6 +8,10 @@ spring:
     url: jdbc:mysql://eureka-zuul:3306/galaxy?characterEncoding=UTF-8
   redis:
     host: eureka-zuul
+  rabbitmq:
+    host: eureka-zuul
+    username: root
+    password: root
 server:
   port: 8601
 eureka:
