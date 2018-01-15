@@ -21,3 +21,12 @@ eureka:
 mybatis:
   type-aliases-package: com.galaxy.framework.aquarius.entity
   mapper-locations: classpath:mappers/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    com:
+      galaxy:
+        framework:
+          aquarius:
+            mapper: debug
