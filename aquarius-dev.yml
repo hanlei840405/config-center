@@ -14,10 +14,6 @@ spring:
     password: root
 server:
   port: 8701
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka-zuul:8101/eureka/
 mybatis:
   type-aliases-package: com.galaxy.framework.aquarius.entity
   mapper-locations: classpath:mappers/*.xml
